@@ -14,7 +14,7 @@ import LifetimeTracker
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    var extraVC = [UIViewController]()
+    var extraVC = [UIViewController]() // why there is a n extra vc?
     
     
     internal func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
