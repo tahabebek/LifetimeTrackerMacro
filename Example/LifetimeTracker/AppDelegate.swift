@@ -12,7 +12,7 @@ import LifetimeTracker
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    ////
+    ///////////
     var window: UIWindow?
     var extraVC = [UIViewController]()
     
