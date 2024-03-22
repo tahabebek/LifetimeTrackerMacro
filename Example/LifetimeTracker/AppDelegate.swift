@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 visibility: .alwaysVisible,
                 style: .bar,
                 textColorForNoIssues: .systemGreen,
-                textColorForLeakDetected: .systemRed
+                textColorForLeakDetected: .systemRed//
               ).refreshUI
             )
         #else
