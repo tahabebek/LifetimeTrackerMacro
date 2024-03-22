@@ -28,7 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
               ).refreshUI
             )
         #else
-        #endif
+        #endif///
         
         window = UIWindow()
         window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
